@@ -1,0 +1,55 @@
+/*
+Name: reflectionpage.css
+Author: Ruifu Wang
+Description: 
+css file for reflection.html 
+Base on Template from w3school: https://www.w3schools.com/css/tryit.asp?filename=trycss_template1_float
+
+Version: 1
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5px;
+    background-color: aliceblue;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Style the header*/
+.header{
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+strong{
+    color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column_nav{
+    text-align: center;
+    background-color: black;
+    float: left;
+    width: 20%;
+    padding: 10px;
+
+}
+
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Style the footer */
+.footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
