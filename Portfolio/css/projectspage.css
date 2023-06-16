@@ -44,6 +44,13 @@ strong{
     width: 33.33%;
     padding: 10px;
 }
+.column img
+{
+    
+    max-width: 100%;
+    height: auto;
+   
+}
 
   /* Clear floats after the columns */
 .row:after {
